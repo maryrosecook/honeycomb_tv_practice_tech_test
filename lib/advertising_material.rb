@@ -6,4 +6,6 @@ class AdvertisingMaterial
     @clock_number = clock_number
   end
 
+  
+
 end

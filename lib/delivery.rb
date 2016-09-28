@@ -1,12 +1,12 @@
 class Delivery
 
-  attr_reader :type, :broadcaster
+  # Do we need these??
+  attr_reader :type, :broadcaster, :advertising_material
 
-  def initialize(type, broadcaster)
+  def initialize(type, broadcaster, advertising_material)
     @type = type
     @broadcaster = broadcaster
+    @advertising_material = advertising_material
   end
-
-  # Or should, instead I have @standard = true, @express = false, etc?
 
 end
