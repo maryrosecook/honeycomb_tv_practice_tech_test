@@ -6,4 +6,6 @@ describe AdvertisingMaterial do
   it 'has a unique clock number' do
     expect(advertising_material).to respond_to(:clock_number)
   end
+
+  # add test to check that initialize stores clock number correctly?
 end
